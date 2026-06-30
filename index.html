@@ -1,1 +1,453 @@
-test
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Product Development & Firmware Engineering Firm</title>
+
+    <!-- Meta tags for SEO -->
+    <meta name="description"
+        content="World-class IoT product development and embedded firmware engineering firm for startups and enterprises.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+
+    <!-- FontAwesome (Placeholder for Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Specific Home 1 Styles */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            padding-top: 80px;
+            /* Account for navbar */
+        }
+
+        /* Background animations */
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(10, 10, 15, 0.4), rgba(10, 10, 15, 0.6)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070') center/cover;
+            z-index: -2;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-label {
+            color: var(--color-primary);
+            font-weight: var(--weight-bold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .hero h1 {
+            font-size: 72px;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 3rem auto;
+            color: var(--text-secondary);
+        }
+
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        /* Section Spacing */
+        .section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
+        }
+    </style>
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <i class="fa-solid fa-microchip"></i>
+                IoT<span>Engine</span>
+            </a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" id="theme-toggle" class="btn-icon" title="Toggle Theme"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" id="rtl-toggle-nav" class="btn-icon" title="Toggle RTL"><i
+                        class="fa-solid fa-right-left"></i></a>
+                <a href="register.html" class="btn btn-primary">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-label">Engineering Tomorrow's Connected Devices</span>
+                <h1>Transform Innovative Ideas Into Intelligent Connected Products</h1>
+                <p>From embedded firmware to production-ready IoT devices, we help startups and enterprises design,
+                    prototype, and launch next-generation connected hardware.</p>
+                <div class="hero-actions">
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                    <a href="case-studies.html" class="btn btn-outline">View Case Studies</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Development Lifecycle Section -->
+    <section class="section" style="padding: 100px 0; background-color: white; color: black; text-align: center;">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color: black;">Product Development Lifecycle</h2>
+                <p style="color: #666; margin-bottom: 3rem;">End-to-end engineering from concept to mass production.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="height: 180px; background: url('assets/images/product1.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h3
+                            style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.35rem; overflow: hidden; text-overflow: ellipsis;">
+                            1. Architecture & Design</h3>
+                        <p style="color: #444; min-height: 90px;">Feasibility studies, system architecture, component
+                            selection, and rapid conceptualization for IoT devices.</p>
+                    </div>
+                </div>
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="height: 180px; background: url('assets/images/product2.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h3
+                            style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.35rem; overflow: hidden; text-overflow: ellipsis;">
+                            2. Prototyping</h3>
+                        <p style="color: #444; min-height: 90px;">Custom PCB layout, 3D printed enclosures, and initial
+                            firmware to validate core functionality quickly.</p>
+                    </div>
+                </div>
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="height: 180px; background: url('assets/images/product3.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h3
+                            style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.35rem; overflow: hidden; text-overflow: ellipsis;">
+                            3. Embedded Firmware</h3>
+                        <p style="color: #444; min-height: 90px;">Robust RTOS or bare-metal C/C++ firmware development,
+                            optimizing for low power and wireless connectivity.</p>
+                    </div>
+                </div>
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="height: 180px; background: url('assets/images/product4.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h3
+                            style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.35rem; overflow: hidden; text-overflow: ellipsis;">
+                            4. Manufacturing Support</h3>
+                        <p style="color: #444; min-height: 90px;">DFM, certification support (FCC/CE), testing jigs, and
+                            supply chain consultation for scaling production.</p>
+                    </div>
+                </div>
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="height: 180px; background: url('assets/images/product5.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h3
+                            style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.35rem; overflow: hidden; text-overflow: ellipsis;">
+                            5. Cloud Integration</h3>
+                        <p style="color: #444; min-height: 90px;">Connecting devices securely to scalable cloud
+                            infrastructure for OTA updates and data telemetry.</p>
+                    </div>
+                </div>
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="height: 180px; background: url('assets/images/product6.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h3
+                            style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.35rem; overflow: hidden; text-overflow: ellipsis;">
+                            6. Fleet Management</h3>
+                        <p style="color: #444; min-height: 90px;">Continuous security patching, device monitoring, and
+                            mass lifecycle management support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section 3: About Us Highlights -->
+    <section class="section bg-secondary" style="padding: 100px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose IoT Engine?</h2>
+                <p style="margin-bottom: 3rem;">We combine hardware expertise with software innovation.</p>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <h3 style="margin-bottom: 1.5rem; color: var(--color-primary);">Decades of Engineering Experience
+                    </h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">Our team has successfully brought over
+                        100+ hardware products to mass production, passing strict FCC, CE, and UL certifications.</p>
+                    <p style="color: var(--text-secondary);">We reduce your time-to-market by leveraging our
+                        pre-certified hardware modules and robust RTOS firmware foundations.</p>
+                </div>
+                <div
+                    style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem;"><i class="fa-solid fa-check"
+                                style="color: var(--color-primary); margin-top: 5px;"></i> <span>End-to-End
+                                Development</span></li>
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem;"><i class="fa-solid fa-check"
+                                style="color: var(--color-primary); margin-top: 5px;"></i> <span>In-house Prototype
+                                Lab</span></li>
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem;"><i class="fa-solid fa-check"
+                                style="color: var(--color-primary); margin-top: 5px;"></i> <span>Supply Chain
+                                Management</span></li>
+                        <li style="display: flex; gap: 1rem;"><i class="fa-solid fa-check"
+                                style="color: var(--color-primary); margin-top: 5px;"></i> <span>Cloud & App
+                                Integration</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Core Technologies Grid -->
+    <section class="section" style="padding: 100px 0; background-color: white; color: black; text-align: center;">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color: black;">Core Technologies</h2>
+                <p style="color: #666; margin-bottom: 3rem;">We work with industry-standard protocols and silicon.</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2.5rem;">
+                <div class="premium-card"
+                    style="padding: 2rem; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <i class="fa-brands fa-bluetooth feature-icon" style="color: var(--color-primary);"></i>
+                    <h3
+                        style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.15rem; overflow: hidden; text-overflow: ellipsis;">
+                        Bluetooth LE</h3>
+                </div>
+                <div class="premium-card"
+                    style="padding: 2rem; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <i class="fa-solid fa-wifi feature-icon" style="color: var(--color-primary);"></i>
+                    <h3
+                        style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.15rem; overflow: hidden; text-overflow: ellipsis;">
+                        Wi-Fi 6</h3>
+                </div>
+                <div class="premium-card"
+                    style="padding: 2rem; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <i class="fa-solid fa-satellite feature-icon" style="color: var(--color-primary);"></i>
+                    <h3
+                        style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.15rem; overflow: hidden; text-overflow: ellipsis;">
+                        Cellular IoT (NB-IoT)</h3>
+                </div>
+                <div class="premium-card"
+                    style="padding: 2rem; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <i class="fa-brands fa-nfc-symbol feature-icon" style="color: var(--color-primary);"></i>
+                    <h3
+                        style="margin-bottom: 1rem; color: black; white-space: nowrap; font-size: 1.15rem; overflow: hidden; text-overflow: ellipsis;">
+                        NFC / RFID</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Key Statistics -->
+    <section class="section bg-secondary" style="padding: 100px 0;">
+        <div class="container" style="text-align: center;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                <div>
+                    <h2 style="font-size: 3rem; color: var(--color-primary); margin-bottom: 0.5rem;">100+</h2>
+                    <p style="color: var(--text-secondary);">Products Launched</p>
+                </div>
+                <div>
+                    <h2 style="font-size: 3rem; color: var(--color-primary); margin-bottom: 0.5rem;">2M+</h2>
+                    <p style="color: var(--text-secondary);">Devices Deployed</p>
+                </div>
+                <div>
+                    <h2 style="font-size: 3rem; color: var(--color-primary); margin-bottom: 0.5rem;">50+</h2>
+                    <p style="color: var(--text-secondary);">Engineers</p>
+                </div>
+                <div>
+                    <h2 style="font-size: 3rem; color: var(--color-primary); margin-bottom: 0.5rem;">10+</h2>
+                    <p style="color: var(--text-secondary);">Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Client Testimonials -->
+    <section class="section" style="padding: 100px 0; background-color: white; color: black; text-align: center;">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color: black;">What Our Clients Say</h2>
+                <p style="color: #666; margin-bottom: 3rem;">Trusted by startups and Fortune 500s.</p>
+            </div>
+            <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2.5rem;">
+                <div class="premium-card"
+                    style="width: 100%; max-width: 450px; padding: 2rem; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop"
+                            style="width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;"
+                            alt="Client">
+                        <div style="color: #FFD700; font-size: 1.1rem;"><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    </div>
+                    <p style="color: #444; font-style: italic; margin-bottom: 1.5rem;">"IoT Engine turned our napkin
+                        sketch into a fully functioning prototype in just 6 weeks. Their embedded team is top-tier."</p>
+                    <h4 style="color: var(--color-primary);">Sarah Jenkins, Tech Start</h4>
+                </div>
+                <div class="premium-card"
+                    style="width: 100%; max-width: 450px; padding: 2rem; overflow: hidden; border-radius: 12px; border: 1px solid #ddd; background: #fafafa; color: black; text-align: center;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop"
+                            style="width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;"
+                            alt="Client">
+                        <div style="color: #FFD700; font-size: 1.1rem;"><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    </div>
+                    <p style="color: #444; font-style: italic; margin-bottom: 1.5rem;">"Their expertise in low-power
+                        cellular design saved our project from failure. Highly recommended hardware partner."</p>
+                    <h4 style="color: var(--color-primary);">Michael Chen, Industrial Solutions</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: CTA -->
+    <section class="section bg-secondary" style="padding: 100px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Ready to build your next device?</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 3rem;">Schedule a free consultation
+                with our engineering team to discuss your requirements and get a detailed project roadmap.</p>
+            <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <a href="index.html" class="nav-brand footer-brand">
+                    <i class="fa-solid fa-microchip"></i>
+                    IoT<span>Engine</span>
+                </a>
+                <p>Transforming ideas into connected devices.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IoT Engine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+</body>
+
+</html>

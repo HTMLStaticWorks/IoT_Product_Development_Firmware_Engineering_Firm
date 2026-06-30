@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - IoT Engine</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg\+xml" href="assets/images/favicon.svg">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <i class="fa-solid fa-microchip"></i>
+                IoT<span>Engine</span>
+            </a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" id="theme-toggle" class="btn-icon" title="Toggle Theme"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" id="rtl-toggle-nav" class="btn-icon" title="Toggle RTL"><i
+                        class="fa-solid fa-right-left"></i></a>
+                <a href="register.html" class="btn btn-primary">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+    <!-- Section 1: Hero Section -->
+    <section class="section"
+        style="padding-top: 160px; padding-bottom: 80px; background-color: var(--color-primary); text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 48px; color: white; margin-bottom: 1rem;">Our Projects</h1>
+            <p style="color: white; max-width: 600px; margin: 0 auto;">Explore our portfolio of successful<br>embedded
+                systems and enterprise IoT deployments.</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Featured Case Study -->
+    <section class="section" style="padding: 100px 0;">
+        <div class="container">
+            <div
+                style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center; background: var(--bg-card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color);">
+                <div style="padding: 4rem;">
+                    <span
+                        style="color: var(--color-primary); font-weight: 600; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;">Featured
+                        Case Study</span>
+                    <h2 style="margin: 1rem 0;">Smart Grid Modernization for National Utilities</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.8;">We engineered a
+                        massive-scale firmware deployment replacing legacy smart meter telemetry across 1.5 million
+                        endpoints, achieving 99.99% uptime and impenetrable OTA security standards.</p>
+                    <ul style="list-style: none; padding: 0; margin-bottom: 2.5rem; display: flex; gap: 2rem;">
+                        <li>
+                            <h4 style="margin: 0; color: var(--text-primary); font-size: 1.8rem;">1.5M</h4>
+                            <span style="color: var(--text-secondary); font-size: 0.9rem;">Endpoints</span>
+                        </li>
+                        <li>
+                            <h4 style="margin: 0; color: var(--text-primary); font-size: 1.8rem;">30%</h4>
+                            <span style="color: var(--text-secondary); font-size: 0.9rem;">Power Saved</span>
+                        </li>
+                        <li>
+                            <h4 style="margin: 0; color: var(--text-primary); font-size: 1.8rem;">8 mo</h4>
+                            <span style="color: var(--text-secondary); font-size: 0.9rem;">Time to Market</span>
+                        </li>
+                    </ul>
+                    <a href="project-details.html" class="btn btn-primary">Read the Full Case Study</a>
+                </div>
+                <div
+                    style="height: 100%; min-height: 500px; background: url('assets/images/case-study.png') center/cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Projects Grid -->
+    <section class="section" style="padding: 100px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <h2>Our Portfolio</h2>
+                <p>A selection of our finest engineering works.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem;">
+                <!-- Project 1 -->
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 250px; background: url('assets/images/project1.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; min-height: 4rem;">Industrial Robotics Control
+                            System</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">A real-time RTOS implementation
+                            for ultra-precise factory automation arms.</p>
+                        <a href="project-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">View
+                            Project
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 250px; background: url('assets/images/project2.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; min-height: 4rem;">Fleet Tracking Wearables</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Low-power asset tracking devices
+                            utilizing NB-IoT and LTE-M for global logistics.</p>
+                        <a href="project-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">View
+                            Project
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 250px; background: url('assets/images/project3.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; min-height: 4rem;">Connected Medical Devices
+                        </h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">HIPAA-compliant BLE bridging
+                            firmware for next-generation patient monitoring.</p>
+                        <a href="project-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">View
+                            Project
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 250px; background: url('assets/images/project4.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; min-height: 4rem;">Smart Agriculture Sensors
+                        </h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Mesh network topography allowing
+                            hundreds of soil sensors to operate on coin cells.</p>
+                        <a href="project-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">View
+                            Project
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 250px; background: url('assets/images/project5.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; min-height: 4rem;">Smart Home Hub</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Centralized zigbee and Z-Wave
+                            control center for modern smart home automation.</p>
+                        <a href="project-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">View
+                            Project
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 250px; background: url('assets/images/project6.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; min-height: 4rem;">Automotive Telematics</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">High-speed CAN bus data logging
+                            and real-time cellular transmission for commercial fleets.</p>
+                        <a href="project-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">View
+                            Project
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <button class="btn btn-outline">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Testimonials -->
+    <section class="section" style="padding: 100px 0; background-color: white; text-align: center;">
+        <div class="container">
+            <h2 style="color: black; margin-bottom: 3rem;">What Our Partners Say</h2>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                <div
+                    style="padding: 2rem; border: 1px solid #eee; border-radius: 12px; text-align: left; background: #fafafa;">
+                    <div style="color: var(--color-primary); margin-bottom: 1rem; font-size: 1.2rem;"><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></div>
+                    <p style="color: #444; font-style: italic; margin-bottom: 1.5rem;">"The team at IoT Engine provided
+                        the critical firmware architecture we needed to launch on time. Their embedded expertise is
+                        unmatched."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-top: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150"
+                            alt="Sarah Jenkins"
+                            style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="color: black; margin: 0;">Sarah Jenkins</h4>
+                            <span style="color: #888; font-size: 0.9rem;">CTO, AeroLogistics</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="padding: 2rem; border: 1px solid #eee; border-radius: 12px; text-align: left; background: #fafafa;">
+                    <div style="color: var(--color-primary); margin-bottom: 1rem; font-size: 1.2rem;"><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></div>
+                    <p style="color: #444; font-style: italic; margin-bottom: 1.5rem;">"They took our failing prototype
+                        and completely restructured the RTOS, increasing battery life by 400% in a matter of weeks."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-top: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150"
+                            alt="Mark Chen" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="color: black; margin: 0;">Mark Chen</h4>
+                            <span style="color: #888; font-size: 0.9rem;">VP Hardware, MedicalCore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: CTA -->
+    <section class="section" style="padding: 100px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Ready to build something incredible?</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem;">Let our world-class
+                engineering team help bring your hardware vision to reality.</p>
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <a href="index.html" class="nav-brand footer-brand">
+                    <i class="fa-solid fa-microchip"></i>
+                    IoT<span>Engine</span>
+                </a>
+                <p>Transforming ideas into connected devices.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IoT Engine. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</body>
+
+</html>

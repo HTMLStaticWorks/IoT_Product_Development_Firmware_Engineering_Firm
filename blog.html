@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - IoT Engine</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg\+xml" href="assets/images/favicon.svg">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <i class="fa-solid fa-microchip"></i>
+                IoT<span>Engine</span>
+            </a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" id="theme-toggle" class="btn-icon" title="Toggle Theme"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" id="rtl-toggle-nav" class="btn-icon" title="Toggle RTL"><i
+                        class="fa-solid fa-right-left"></i></a>
+                <a href="register.html" class="btn btn-primary">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+    <!-- Section 1: Hero Section -->
+    <section class="section"
+        style="padding-top: 160px; padding-bottom: 80px; background-color: var(--color-primary); text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 48px; color: white; margin-bottom: 1rem;">Our Blog</h1>
+            <p style="color: white; max-width: 600px; margin: 0 auto;">Insights, tutorials, and latest news<br>from our
+                embedded engineering experts.</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Featured Post -->
+    <section class="section" style="padding: 100px 0;">
+        <div class="container">
+            <div
+                style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; background: var(--bg-card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color);">
+                <div style="height: 100%; min-height: 400px; background: url('assets/images/blog.png') center/cover;">
+                </div>
+                <div style="padding: 3rem 3rem 3rem 0;">
+                    <span
+                        style="color: var(--color-primary); font-weight: 600; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;">Featured</span>
+                    <h2 style="margin: 1rem 0;">The Future of Edge AI in Industrial IoT</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.8;">Explore how shifting
+                        artificial intelligence workloads to the edge is reducing latency, saving bandwidth, and
+                        enabling real-time decision-making in manufacturing environments.</p>
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100" alt="Author"
+                            style="width: 50px; height: 50px; border-radius: 50%;">
+                        <div>
+                            <h4 style="margin: 0; font-size: 1rem;">David Chen</h4>
+                            <span style="color: var(--text-secondary); font-size: 0.9rem;">Oct 12, 2026 &middot; 8 min
+                                read</span>
+                        </div>
+                    </div>
+                    <a href="blog-details.html" class="btn btn-primary">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Recent Posts -->
+    <section class="section" style="padding: 100px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <h2>Latest Articles</h2>
+                <p>Stay up to date with our engineering insights.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+                <!-- Post 1 -->
+                <div class="premium-card" style="padding: 0; overflow: hidden;">
+                    <div style="height: 220px; background: url('assets/images/article1.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <span style="color: var(--color-primary); font-size: 0.9rem; font-weight: 600;">Hardware</span>
+                        <h3
+                            style="margin: 1rem 0; font-size: 1.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                            Designing for Ultra-Low Power</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Techniques for maximizing
+                            battery life in remote sensor deployments.</p>
+                        <a href="blog-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600;">Read More <i
+                                class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="premium-card" style="padding: 0; overflow: hidden;">
+                    <div style="height: 220px; background: url('assets/images/article2.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <span style="color: var(--color-primary); font-size: 0.9rem; font-weight: 600;">Security</span>
+                        <h3
+                            style="margin: 1rem 0; font-size: 1.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                            Securing OTA Firmware</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Best practices for implementing
+                            secure boot and cryptographic signing.</p>
+                        <a href="blog-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600;">Read More <i
+                                class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="premium-card" style="padding: 0; overflow: hidden;">
+                    <div style="height: 220px; background: url('assets/images/article3.png') center/cover;">
+                    </div>
+                    <div style="padding: 2rem;">
+                        <span style="color: var(--color-primary); font-size: 0.9rem; font-weight: 600;">Cloud</span>
+                        <h3
+                            style="margin: 1rem 0; font-size: 1.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                            AWS IoT Core Integration</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">A complete walkthrough on
+                            provisioning devices securely at scale.</p>
+                        <a href="blog-details.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600;">Read More <i
+                                class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <button class="btn btn-outline">Load More Articles</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Newsletter -->
+    <section class="section" style="padding: 100px 0; background-color: white; text-align: center;">
+        <div class="container">
+            <div style="max-width: 600px; margin: 0 auto;">
+                <h2 style="color: black; margin-bottom: 1rem;">Subscribe to Our Newsletter</h2>
+                <p style="color: #666; margin-bottom: 2rem; line-height: 1.8;">Get the latest articles, tutorials, and
+                    IoT news delivered directly to your inbox every month.</p>
+                <form action="#" method="POST" style="display: flex; gap: 10px;">
+                    <input type="email" placeholder="Enter your email address"
+                        style="flex: 1; padding: 15px; border: 1px solid #ccc; border-radius: 8px; font-family: inherit;"
+                        required>
+                    <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Categories / CTA -->
+    <section class="section" style="padding: 100px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 2rem;">Browse by Category</h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                <a href="#" class="btn btn-outline" style="border-radius: 50px;">Hardware Design</a>
+                <a href="#" class="btn btn-outline" style="border-radius: 50px;">Firmware</a>
+                <a href="#" class="btn btn-outline" style="border-radius: 50px;">Cloud Integration</a>
+                <a href="#" class="btn btn-outline" style="border-radius: 50px;">Security</a>
+                <a href="#" class="btn btn-outline" style="border-radius: 50px;">Case Studies</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <a href="index.html" class="nav-brand footer-brand">
+                    <i class="fa-solid fa-microchip"></i>
+                    IoT<span>Engine</span>
+                </a>
+                <p>Transforming ideas into connected devices.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IoT Engine. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</body>
+
+</html>

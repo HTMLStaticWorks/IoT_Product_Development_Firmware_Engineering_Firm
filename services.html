@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - IoT Engine</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg\+xml" href="assets/images/favicon.svg">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <i class="fa-solid fa-microchip"></i>
+                IoT<span>Engine</span>
+            </a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" id="theme-toggle" class="btn-icon" title="Toggle Theme"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" id="rtl-toggle-nav" class="btn-icon" title="Toggle RTL"><i
+                        class="fa-solid fa-right-left"></i></a>
+                <a href="register.html" class="btn btn-primary">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+    <!-- Section 1: Hero Section -->
+    <section class="section"
+        style="padding-top: 160px; padding-bottom: 80px; background-color: var(--color-primary); text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 48px; color: white; margin-bottom: 1rem;">Our Services</h1>
+            <p style="color: white; max-width: 600px; margin: 0 auto;">End-to-end IoT engineering services
+                from<br>initial prototype to mass manufacturing.</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Core Offerings -->
+    <section class="section" style="padding: 100px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem;">
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 200px; background: url('assets/images/service1.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; ">Firmware Development</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Custom RTOS or bare-metal
+                            development tailored to your exact hardware specifications.</p>
+                        <a href="contact.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">Learn
+                            More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 200px; background: url('assets/images/service2.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; ">Hardware Design (PCB)</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Complete schematic capture and
+                            high-speed multi-layer PCB layout routing.</p>
+                        <a href="contact.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">Learn
+                            More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 200px; background: url('assets/images/service3.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; ">Cloud Architecture</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Scalable backend infrastructure
+                            provisioning using AWS/Azure and rule engines.</p>
+                        <a href="contact.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">Learn
+                            More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 200px; background: url('assets/images/service4.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; ">Security Audits</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Penetration testing and
+                            vulnerability assessments for your entire IoT stack.</p>
+                        <a href="contact.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">Learn
+                            More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 200px; background: url('assets/images/service5.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; ">Manufacturing Support</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">DFM analysis, test jig creation,
+                            and factory floor integration for mass production.</p>
+                        <a href="contact.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">Learn
+                            More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="premium-card"
+                    style="padding: 0; overflow: hidden; border-radius: 12px; display: flex; flex-direction: column; height: 100%;">
+                    <div style="height: 200px; background: url('assets/images/service6.png') center/cover;">
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h3 style="margin: 0 0 1rem; font-size: 1.4rem; ">Prototyping & Enclosures</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Rapid 3D printing and industrial
+                            design for robust, production-ready casings.</p>
+                        <a href="contact.html"
+                            style="color: var(--color-primary); text-decoration: none; font-weight: 600; margin-top: auto;">Learn
+                            More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: The Process -->
+    <section class="section" style="padding: 100px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <h2>Our Methodology</h2>
+                <p>How we bring your hardware to life.</p>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <div style="display: flex; gap: 2rem; align-items: center;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.2rem; font-weight: bold; flex-shrink: 0;">
+                        1</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Discovery & Architecture</h4>
+                        <p style="color: var(--text-secondary);">We analyze requirements, select components, and build
+                            the initial system architecture diagram.</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 2rem; align-items: center;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.2rem; font-weight: bold; flex-shrink: 0;">
+                        2</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Prototyping & Alpha</h4>
+                        <p style="color: var(--text-secondary);">Development of proof-of-concept hardware boards and
+                            initial firmware driver bring-up.</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 2rem; align-items: center;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.2rem; font-weight: bold; flex-shrink: 0;">
+                        3</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Beta & Integration</h4>
+                        <p style="color: var(--text-secondary);">Integration of cloud backends, OTA implementation, and
+                            rigorous QA stress testing.</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 2rem; align-items: center;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.2rem; font-weight: bold; flex-shrink: 0;">
+                        4</div>
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Production & Handoff</h4>
+                        <p style="color: var(--text-secondary);">Final DFM adjustments, manufacturing test fixtures, and
+                            complete IP transfer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Quality Guarantee -->
+    <section class="section" style="padding: 100px 0; background-color: white; text-align: center;">
+        <div class="container">
+            <h2 style="color: black; margin-bottom: 1rem;">Uncompromising Quality</h2>
+            <p style="color: #666; max-width: 700px; margin: 0 auto 3rem; line-height: 1.8;">We stand behind our code.
+                Every deliverable includes static analysis reports, memory leak profiles, and a robust test suite.</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                <div style="padding: 2rem; border: 1px solid #eee; border-radius: 12px;">
+                    <h3 style="color: var(--color-primary); font-size: 2.5rem; margin-bottom: 0.5rem;">100%</h3>
+                    <p style="color: #444; font-weight: 600;">Code Coverage</p>
+                </div>
+                <div style="padding: 2rem; border: 1px solid #eee; border-radius: 12px;">
+                    <h3 style="color: var(--color-primary); font-size: 2.5rem; margin-bottom: 0.5rem;">ISO</h3>
+                    <p style="color: #444; font-weight: 600;">27001 Compliant</p>
+                </div>
+                <div style="padding: 2rem; border: 1px solid #eee; border-radius: 12px;">
+                    <h3 style="color: var(--color-primary); font-size: 2.5rem; margin-bottom: 0.5rem;">24/7</h3>
+                    <p style="color: #444; font-weight: 600;">Deployment Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: CTA -->
+    <section class="section" style="padding: 100px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Ready to scale?</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem;">Speak with an engineer today
+                to see how we can assist your hardware lifecycle.</p>
+            <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <a href="index.html" class="nav-brand footer-brand">
+                    <i class="fa-solid fa-microchip"></i>
+                    IoT<span>Engine</span>
+                </a>
+                <p>Transforming ideas into connected devices.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IoT Engine. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</body>
+
+</html>

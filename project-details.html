@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg\+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+    <!-- Fixed Toggles handled globally or can be injected here -->
+<nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <i class="fa-solid fa-microchip"></i>
+                IoT<span>Engine</span>
+            </a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" id="theme-toggle" class="btn-icon" title="Toggle Theme"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" id="rtl-toggle-nav" class="btn-icon" title="Toggle RTL"><i class="fa-solid fa-right-left"></i></a>
+                <a href="register.html" class="btn btn-primary">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Page Hero -->
+    <section class="section" style="padding-top: 160px; padding-bottom: 80px; background: linear-gradient(rgba(5, 10, 20, 0.9), rgba(5, 10, 20, 0.9)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070') center/cover; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 48px; color: white; margin-bottom: 1rem;">${pageTitle}</h1>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">Comprehensive information and resources regarding ${pageTitle.toLowerCase()} at IoT Engine.</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Overview</h2>
+                <p>Understanding the value we bring.</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8;">Our approach to ${pageTitle.toLowerCase()} is designed to minimize risk while accelerating your product's journey to market. We leverage decades of embedded engineering experience to provide robust, scalable, and secure solutions tailored to your unique enterprise requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Key Features -->
+    <section class="section bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Highlights</h2>
+                <p>What sets our ${pageTitle.toLowerCase()} apart.</p>
+            </div>
+            <div class="features-grid">
+                <div class="premium-card">
+                    <i class="fa-solid fa-bolt feature-icon"></i>
+                    <h3>Rapid Execution</h3>
+                    <p>We move fast without compromising on engineering rigor or security.</p>
+                </div>
+                <div class="premium-card">
+                    <i class="fa-solid fa-lock feature-icon"></i>
+                    <h3>Enterprise Security</h3>
+                    <p>Built-in security protocols for hardware and software from day one.</p>
+                </div>
+                <div class="premium-card">
+                    <i class="fa-solid fa-scale-balanced feature-icon"></i>
+                    <h3>Scalable Architecture</h3>
+                    <p>Designed to scale seamlessly from 100 devices to 100,000+ deployments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Deep Dive -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem; align-items: center;">
+                <div>
+                    <h2 style="margin-bottom: 1.5rem;">Uncompromising Quality</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">Every aspect of our ${pageTitle.toLowerCase()} is scrutinized by our senior engineering team to ensure it meets our strict quality standards.</p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem;"><i class="fa-solid fa-check" style="color: var(--color-primary); margin-top: 5px;"></i> <span>Rigorous QA Testing</span></li>
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem;"><i class="fa-solid fa-check" style="color: var(--color-primary); margin-top: 5px;"></i> <span>Compliance Ready</span></li>
+                        <li style="display: flex; gap: 1rem;"><i class="fa-solid fa-check" style="color: var(--color-primary); margin-top: 5px;"></i> <span>Long-term Support</span></li>
+                    </ul>
+                </div>
+                <div style="background: var(--bg-card); padding: 3rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <i class="fa-solid fa-microchip" style="font-size: 4rem; color: var(--color-primary); margin-bottom: 1.5rem;"></i>
+                    <h3>Built for the Edge</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: CTA -->
+    <section class="section bg-secondary" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Want to learn more?</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem;">Get in touch with our team to discuss how we can help you achieve your goals.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <a href="index.html" class="nav-brand footer-brand">
+                    <i class="fa-solid fa-microchip"></i>
+                    IoT<span>Engine</span>
+                </a>
+                <p>Transforming ideas into connected devices.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IoT Engine. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+</body>
+</html>
+
+
+

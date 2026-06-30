@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - IoT Engine</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg\+xml" href="assets/images/favicon.svg">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <i class="fa-solid fa-microchip"></i>
+                IoT<span>Engine</span>
+            </a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" id="theme-toggle" class="btn-icon" title="Toggle Theme"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" id="rtl-toggle-nav" class="btn-icon" title="Toggle RTL"><i
+                        class="fa-solid fa-right-left"></i></a>
+                <a href="register.html" class="btn btn-primary">Sign up</a>
+            </div>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Section -->
+    <section class="section"
+        style="padding-top: 160px; padding-bottom: 80px; background-color: var(--color-primary); text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 48px; color: white; margin-bottom: 1rem;">Contact Us</h1>
+            <p style="color: white; max-width: 600px; margin: 0 auto;">Get in touch with our engineering team<br>to
+                discuss your next IoT project.</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Contact Info & Form -->
+    <section class="section" style="padding: 100px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem;">
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 style="margin-bottom: 1.5rem;">Let's Talk</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem;">Whether you need full turnkey product
+                        development or specialized firmware consulting, our experts are ready to assist.</p>
+
+                    <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: var(--bg-card); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color); color: var(--color-primary); font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.5rem;">Our Headquarters</h4>
+                            <p style="color: var(--text-secondary);">123 Innovation Drive<br>Silicon Valley, CA 94043
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: var(--bg-card); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color); color: var(--color-primary); font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.5rem;">Email Us</h4>
+                            <p style="color: var(--text-secondary);">hello@iotengine.com<br>support@iotengine.com</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: var(--bg-card); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color); color: var(--color-primary); font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.5rem;">Call Us</h4>
+                            <p style="color: var(--text-secondary);">+1 (555) 123-4567<br>Mon-Fri, 9am - 6pm PST</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="premium-card">
+                    <h3 style="margin-bottom: 1.5rem;">Send a Message</h3>
+                    <form action="#" method="POST">
+                        <div style="margin-bottom: 1.2rem;">
+                            <input type="text" placeholder="Your Name"
+                                style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-color); background-color: var(--bg-primary); color: var(--text-primary); border-radius: 8px; font-family: inherit;"
+                                required>
+                        </div>
+                        <div style="margin-bottom: 1.2rem;">
+                            <input type="email" placeholder="Your Email"
+                                style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-color); background-color: var(--bg-primary); color: var(--text-primary); border-radius: 8px; font-family: inherit;"
+                                required>
+                        </div>
+                        <div style="margin-bottom: 1.2rem;">
+                            <input type="text" placeholder="Subject"
+                                style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-color); background-color: var(--bg-primary); color: var(--text-primary); border-radius: 8px; font-family: inherit;"
+                                required>
+                        </div>
+                        <div style="margin-bottom: 1.2rem;">
+                            <textarea placeholder="Your Message" rows="5"
+                                style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-color); background-color: var(--bg-primary); color: var(--text-primary); border-radius: 8px; font-family: inherit; resize: vertical;"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section 4: Support Information -->
+    <section class="section" style="padding: 100px 0; background-color: white; text-align: center;">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color: black;">Technical Support</h2>
+                <p style="color: #666;">Already a client? Get the help you need.</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="color: #444; font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">If you require
+                    technical assistance with a deployed product, firmware updates, or hardware troubleshooting, please
+                    visit our dedicated client portal or contact your assigned project manager directly.</p>
+                <a href="login.html" class="btn btn-outline"
+                    style="border-color: var(--color-primary); color: var(--color-primary);">Client Portal Login</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Final CTA -->
+    <section class="section" style="padding: 100px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Looking for Career Opportunities?</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem;">We are always on the lookout
+                for talented embedded engineers, hardware architects, and IoT enthusiasts to join our growing team.</p>
+            <a href="#" class="btn btn-primary">View Open Positions</a>
+            <div style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 1rem;">
+                <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Section 3: Google Map -->
+    <section class="section" style="padding: 100px 0; background-color: white;">
+        <div class="container">
+            <div
+                style="width: 100%; height: 400px; border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color);">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.63929062107!2d-122.08624618469247!3d37.4219998798255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425def3d%3A0x8a927a44fbc75cb8!2sGoogleplex!5e0!3m2!1sen!2sus!4v1629828522339!5m2!1sen!2sus"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <a href="index.html" class="nav-brand footer-brand">
+                    <i class="fa-solid fa-microchip"></i>
+                    IoT<span>Engine</span>
+                </a>
+                <p>Transforming ideas into connected devices.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IoT Engine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+</body>
+
+</html>
+
