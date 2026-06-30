@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" dir="ltr" data-theme="dark">
 
 <head>
@@ -50,13 +50,24 @@
                 transform: translateY(100vh);
             }
         }
+        
+        .hero-2 h1 {
+            font-size: 64px;
+            color: white;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero-2 h1 {
+                font-size: 40px;
+            }
+        }
     </style>
     <!-- Favicons -->
-    <link rel="icon" type="image/svg\+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
 
 <body>
@@ -66,7 +77,6 @@
                 <i class="fa-solid fa-microchip"></i>
                 IoT<span>Engine</span>
             </a>
-
             <ul class="nav-links">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle">Home <i class="fa-solid fa-chevron-down"></i></a>
@@ -103,7 +113,7 @@
             <div style="max-width: 800px; margin: 0 auto;">
                 <h4 style="color: var(--color-accent); letter-spacing: 2px;">Inside The Future Of Embedded Innovation
                 </h4>
-                <h1 style="font-size: 64px; color: white;">Hardware Innovation Powered By Embedded Intelligence</h1>
+                <h1 style="">Hardware Innovation Powered By Embedded Intelligence</h1>
                 <p style="color: white; font-size: 1.1rem;">Bringing robust firmware and intelligent connectivity to the industrial edge.</p>
             </div>
         </div>
@@ -213,7 +223,7 @@
                         <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Developed a low-power LoRaWAN
                             sensor node capable of running for 5 years on a single coin cell battery.</p>
                         <a href="#" style="color: var(--color-primary); text-decoration: none; font-weight: bold;">Read
-                            Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                            Case Study </a>
                     </div>
                 </div>
                 <div class="premium-card"
@@ -226,7 +236,7 @@
                         <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Engineered a FDA-compliant BLE
                             wearable for continuous patient monitoring with ultra-low latency.</p>
                         <a href="#" style="color: var(--color-primary); text-decoration: none; font-weight: bold;">Read
-                            Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                            Case Study </a>
                     </div>
                 </div>
             </div>
@@ -372,4 +382,5 @@
 </body>
 
 </html>
+
 

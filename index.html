@@ -100,6 +100,21 @@
             color: var(--color-primary);
             margin-bottom: 1.5rem;
         }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero {
+                padding-top: 140px;
+                padding-bottom: 80px;
+            }
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .hero-actions .btn {
+                white-space: nowrap;
+            }
+        }
     </style>
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
@@ -152,7 +167,6 @@
                     prototype, and launch next-generation connected hardware.</p>
                 <div class="hero-actions">
                     <a href="contact.html" class="btn btn-primary">Start Your Project</a>
-                    <a href="case-studies.html" class="btn btn-outline">View Case Studies</a>
                 </div>
             </div>
         </div>
