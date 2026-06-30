@@ -59,6 +59,22 @@ document.addEventListener('DOMContentLoaded', () => {
   if (hamburger && navContainer) {
     hamburger.addEventListener('click', () => {
       navContainer.classList.toggle('active');
+
+      const isActive = navContainer.classList.contains('active');
+      document.body.style.overflow = isActive ? 'hidden' : '';
+      document.documentElement.style.overflow = isActive ? 'hidden' : '';
+
+      const icon = hamburger.querySelector('i');
+      if (icon) {
+        icon.classList.toggle('fa-bars', !isActive);
+        icon.classList.toggle('fa-xmark', isActive);
+      }
+
+      if (navContainer.classList.contains('active')) {
+        hamburger.setAttribute('aria-label', 'Close menu');
+      } else {
+        hamburger.setAttribute('aria-label', 'Open menu');
+      }
     });
   }
 
