@@ -1,0 +1,19 @@
+/* RTL Layout Specific Styles */
+html[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .nav-brand {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-actions {
+  flex-direction: row-reverse;
+}
+
+/* Move fixed toggles to left in RTL */
+html[dir="rtl"] .fixed-toggles {
+  right: auto;
+  left: 20px;
+}

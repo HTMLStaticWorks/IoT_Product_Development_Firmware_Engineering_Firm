@@ -1,0 +1,26 @@
+/* Light Mode Overrides (Default is Dark Mode) */
+[data-theme="light"] {
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #E2E8F0;
+  --bg-card: #FFFFFF;
+  
+  --color-primary: #0088CC; /* Adjusted for better contrast on light */
+  --color-secondary: #3B82F6;
+  --color-accent: #059669;
+  --color-premium: #D97706;
+  
+  --text-primary: #050A14;
+  --text-secondary: #475569;
+  
+  --border-color: rgba(0, 0, 0, 0.1);
+  --glow-color: rgba(0, 136, 204, 0.15);
+}
+
+[data-theme="light"] .navbar {
+  background: rgba(248, 250, 252, 0.9);
+}
+
+[data-theme="light"] .premium-card:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-color: rgba(0,0,0,0.15);
+}
