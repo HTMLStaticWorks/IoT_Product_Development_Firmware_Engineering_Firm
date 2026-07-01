@@ -17,3 +17,15 @@ html[dir="rtl"] .fixed-toggles {
   right: auto;
   left: 20px;
 }
+
+html[dir="rtl"] .auth-top-icons {
+  right: auto;
+  left: 20px;
+}
+
+@media (max-width: 480px) {
+  html[dir="rtl"] .auth-top-icons {
+    right: auto;
+    left: 15px;
+  }
+}
